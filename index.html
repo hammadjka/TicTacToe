@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="backend.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="topBar">
+            <h1 id="heading">Swords and Shields</h1>
+        </div>
+        <div id="content">
+            <div id="playerInfo">
+                <h1 id="player">Player 1</h1>
+                <div id="options">
+                    <div id="select">
+                        <h1>Select:</h1>
+                        <button class="character hover" id="tick" data-value="1"></button>
+                        <button class="character hover" id="cross" data-value="1"></button>
+                        <button class="character hover" id="circle" data-value="1"></button>
+                    </div>
+                </div>
+                <div id="score">
+                    <h1 id="player1Wins">Wins: 0</h1>
+                </div>
+            </div>
+            <div id="board">
+                <div class="cell clickable" data-value="1"></div>
+                <div class="cell clickable" data-value="2"></div>
+                <div class="cell clickable" data-value="3"></div>
+                <div class="cell clickable" data-value="4"></div>
+                <div class="cell clickable" data-value="5"></div>
+                <div class="cell clickable" data-value="6"></div>
+                <div class="cell clickable" data-value="7"></div>
+                <div class="cell clickable" data-value="8"></div>
+                <div class="cell clickable" data-value="9"></div>
+            </div>
+            <div id="playerInfo">
+                <h1 id="player">Player 2</h1>
+                <div id="options">
+                    <div id="select">
+                        <h1>Select:</h1>
+                        <button class="character hover" id="tick" data-value="2"></button>
+                        <button class="character hover" id="cross" data-value="2"></button>
+                        <button class="character hover" id="circle" data-value="2"></button>
+                    </div>
+                </div>
+                <div id="score">
+                    <h1 id="player2Wins">Wins: 0</h1>
+                </div>
+            </div>
+
+            <div id="endButtons">
+                <button class="button-27" id="continue">Continue</button>
+                <button class="button-27" id="quit">Quit</button>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
